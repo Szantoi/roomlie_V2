@@ -1,0 +1,21 @@
+/* 
+  Tailwind CDN az index.html-ben van betöltve (script tag).
+  Ez a fájl csak az alap globális stílusokat tartalmazza.
+*/
+
+/* Globális alap */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
